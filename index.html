@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset ="utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>じゃんけんげーむ</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.html5jpMeterPolyfill.js"></script>
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script type="text/javascript" src="js/janken_game.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <p class="navbar-brand">じゃんけんゲーム-3本先取で勝ち-</p>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarEexample7">
+          <ul class="nav navbar-nav">
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="center">
+      <buTton type="button" class="btn-lg btn-default" id="gamestart">ゲーム<br>スタート！</button>
+      <buTton type="button" class="btn-lg btn-default" id="gamerestart">リトライ！</button>
+      <img src="img/gameclear.jpg" style="display: none;" id="gameclear">
+      <img src="img/gameover.jpg" style="display: none;" id="gameover">
+    </div>
+    <div class="margin_top center hided" id="open">
+      <h2 class="side_display margin_right">あなた</h2>
+      <h2 class="side_display margin_left">あいて</h2>
+      <div>
+        <div class="side_display margin_right">
+          <img src="img/ハート.jpg" class="mylife_2 small_heart"width="50" height="50">
+          <img src="img/ハート.jpg" class="mylife_1 small_heart"width="50" height="50">
+          <img src="img/ハート.jpg" class="mylife_0 small_heart"width="50" height="50">
+        </div>
+        <div class="side_display margin_left">
+          <img src="img/ハート.jpg" class="enemylife_0 small_heart"width="50" height="50">
+          <img src="img/ハート.jpg" class="enemylife_1 small_heart"width="50" height="50">
+          <img src="img/ハート.jpg" class="enemylife_2 small_heart"width="50" height="50">
+        </div>
+      </div>
+      <div>
+        <img src="img/はてな.jpg" class="side_display me" width="300" height="300">
+        <img src="img/はてな.jpg" class="side_display you" width="300" height="300">
+        <div id="reset">
+          <button type="button" class="btn btn-default" id="gu" data-value="1">グー</button>
+          <button type="button" class="btn btn-default" id="tyoki">チョキ</button>
+          <button type="button" class="btn btn-default" id="pa">パー</button>
+          <h1 id="judge">勝敗は？</h1>
+          <img src="img/timer.jpg" class="small_heart" style="position: relative; left: -350px;"width="50" height="50">
+        </div>
+        <div>
+          <meter id="m" value="5" min="0" max="5" low="2" high="4" optimum="5"></meter>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

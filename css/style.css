@@ -1,0 +1,192 @@
+body {
+  margin: 0 10px;
+  padding: 0 0 50px;
+  background: #F2F2F2;
+  color: #222;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.header, .footer, .section {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.header, .footer {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 1em;
+}
+
+.margin_top {
+  margin-top: 30px;
+}
+
+.maegin_bottom {
+  margin-bottom: 50px;
+}
+.center {
+  text-align: center;
+}
+
+.margin_right {
+  margin-right: 100px;
+}
+
+.margin_left {
+  margin-left: 100px;
+}
+
+h2 {
+  margin: 1em auto 0.5em;
+}
+
+.side_display {
+  display: inline;
+}
+
+.hided {
+  display : none;
+}
+
+meter {
+  display: inline-block;
+  width: 60em;
+  height: 2.5em;
+  vertical-align: -0.2em;
+}
+
+@media screen and ( max-width:479px ){
+  .small_heart{
+    width: 40px;
+    height: 40px;
+  }
+  .margin_top{
+    margin-top: 30px;
+  }
+  .margin_left {
+    margin-left: 30px;
+  }
+  .margin_right {
+    margin-right: 30px;
+  }
+  .me {
+    width: 150px;
+    height: 150px;
+  }
+  .you {
+    width: 150px;
+    height: 150px;
+  }
+  #gameclear{
+     width: 150px;
+    height: 150px;
+  }
+}
+
+#gamestart{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: -60px;
+  left: 0px;
+  margin: auto;
+  width: 128px;
+  height: 64px;
+  vertical-align: middle;
+}
+
+#gamerestart{
+  vertical-align: middle;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: -60px;
+  left: 0px;
+  margin: auto;
+  width: 128px;
+  height: 64px;
+  display: none;
+  vertical-align: middle;
+}
+
+p {
+  margin: 0.5em 0 0;
+  line-height: 1.5;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+form {
+  overflow: hidden;
+}
+
+input, label, select {
+  vertical-align: middle;
+}
+
+input[type="radio"] + label {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 5em;
+  padding: 2px 5px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+table {
+  float: right;
+  width: 320px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table:first-child {
+  float: left;
+}
+
+th, td {
+  height: 50px;
+  border-bottom: 2px solid #CCC;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+.actions {
+  padding: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.actions li {
+  display: inline;
+  list-style: none;
+}
+
+.box {
+  min-height: 460px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box p {
+  padding: 20px;
+  background: rgba(255, 255, 255, .7);
+  filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#B2FFFFFF,endcolorstr=#B2FFFFFF,gradienttype=0);
+  -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FFFFFF,endColorstr=#B2FFFFFF)";
+  zoom: 1;
+  letter-spacing: 1px;
+}
+
+.box p + p {
+  margin-top: 20px;
+}
