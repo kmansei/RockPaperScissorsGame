@@ -1,4 +1,4 @@
-#Rock_paper_scissors_game
+# Rock_paper_scissors_game
 ====
 
 ブラウザ上で動くじゃんけんゲームです。<br>
