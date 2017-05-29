@@ -1,7 +1,7 @@
 #Rock_paper_scissors_game
 ====
 
-ブラウザ上で動くじゃんけんゲームです。
+ブラウザ上で動くじゃんけんゲームです。<br>
 https://janken-game.herokuapp.com/
 
 ## Description
@@ -10,4 +10,4 @@ https://janken-game.herokuapp.com/
 - 制限時間有り(ボタン押さないと自分のライフが減る)
 
 ## Demo
-![demo](https://github.com/mansei/Rock_paper_scissors_game/じゃんけん.gif)
+![demo](https://github.com/mansei/rock_paper_scissors_game/blob/master/%E3%81%98%E3%82%83%E3%82%93%E3%81%91%E3%82%93.gif)
