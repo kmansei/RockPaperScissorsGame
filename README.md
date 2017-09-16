@@ -1,6 +1,6 @@
 # Rock_paper_scissors_game
 
-ブラウザ上で動くじゃんけんゲームです。<br>
+インターンの課題で作ったじゃんけんゲームです。<br>
 https://janken-game.herokuapp.com/
 
 ## Description
